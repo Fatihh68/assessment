@@ -6,9 +6,9 @@ rest = rest api, contains rest controller and entry point for SpringApplication
 
 ### API Endpoints
 ````
-GET     /api/folders:   Get a list of folders.
-GET     /api/filesizes: Get file sizes by filetype(optional) in bytes.
-DELETE  /api/purge:     Purge all data.
+GET     /api/folders:                    Get a list of folders.
+GET     /api/filesizes?filetype=xml:     Get file sizes by filetype(optional) in bytes.
+DELETE  /api/purge:                      Purge all data.
 ````
 
 Added a few unit tests
