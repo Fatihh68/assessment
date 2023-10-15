@@ -2,7 +2,7 @@
 
 ### Maven project which has 2 modules
 core = contains services and main logic   
-rest = rest api, contains rest controller
+rest = rest api, contains rest controller and entry point for SpringApplication
 
 ### API Endpoints
 ````
